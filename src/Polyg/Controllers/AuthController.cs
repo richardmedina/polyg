@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Polyg.Abstract.Services;
 using Polyg.Models;
@@ -25,7 +27,10 @@ namespace Polyg.Controllers
         public IActionResult Auth([FromBody] AuthUserModel authUser)
         {
             var user = _authUserService.AuthenticateUser(authUser.UserName, authUser.Password);
-            return Ok(user);
+
+            return user == null
+                ? StatusCode(StatusCodes.Status401Unauthorized, null)
+                : StatusCode(StatusCodes.Status200OK, user);
         }
     }
 }
