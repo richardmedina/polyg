@@ -10,6 +10,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using Polyg.Infrastructure.Domain;
+using Polyg.Domain;
+using Polyg.Services;
+using AutoMapper;
 
 namespace Polyg
 {
@@ -26,6 +31,11 @@ namespace Polyg
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<PolygDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("masterdb")));
+            services.RegisterDomainServices();
+            services.RegisterBusinessServices();
+            services.AddAutoMapper(typeof(Startup));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
