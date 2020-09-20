@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg", "Polyg\Polyg.csproj", "{FD658544-EEE2-4982-88FD-ECFF30F90623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.Abstract", "Polyg.Abstract\Polyg.Abstract.csproj", "{2D0B50BA-0004-4C00-B724-4B6B98B13464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.Contract", "Polyg.Contract\Polyg.Contract.csproj", "{137A7287-F7E6-40F4-951F-0D379A2A912E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.Domain", "Polyg.Domain\Polyg.Domain.csproj", "{80782DEC-6270-4CE7-B97F-5900C2D78F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.Infrastructure", "Polyg.Infrastructure\Polyg.Infrastructure.csproj", "{AEC0E76C-DB2F-4D16-B2C0-AE6280BD031F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.Services", "Polyg.Services\Polyg.Services.csproj", "{2B5D8507-AE47-44C6-89F8-A6610EC90DE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD658544-EEE2-4982-88FD-ECFF30F90623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD658544-EEE2-4982-88FD-ECFF30F90623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD658544-EEE2-4982-88FD-ECFF30F90623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD658544-EEE2-4982-88FD-ECFF30F90623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0B50BA-0004-4C00-B724-4B6B98B13464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0B50BA-0004-4C00-B724-4B6B98B13464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0B50BA-0004-4C00-B724-4B6B98B13464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0B50BA-0004-4C00-B724-4B6B98B13464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137A7287-F7E6-40F4-951F-0D379A2A912E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137A7287-F7E6-40F4-951F-0D379A2A912E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137A7287-F7E6-40F4-951F-0D379A2A912E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137A7287-F7E6-40F4-951F-0D379A2A912E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80782DEC-6270-4CE7-B97F-5900C2D78F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80782DEC-6270-4CE7-B97F-5900C2D78F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80782DEC-6270-4CE7-B97F-5900C2D78F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80782DEC-6270-4CE7-B97F-5900C2D78F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC0E76C-DB2F-4D16-B2C0-AE6280BD031F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC0E76C-DB2F-4D16-B2C0-AE6280BD031F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC0E76C-DB2F-4D16-B2C0-AE6280BD031F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC0E76C-DB2F-4D16-B2C0-AE6280BD031F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5D8507-AE47-44C6-89F8-A6610EC90DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5D8507-AE47-44C6-89F8-A6610EC90DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5D8507-AE47-44C6-89F8-A6610EC90DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5D8507-AE47-44C6-89F8-A6610EC90DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA9CCF03-54C3-4306-9179-DFE63A3293DF}
+	EndGlobalSection
+EndGlobal
