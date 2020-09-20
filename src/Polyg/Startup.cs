@@ -14,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Polyg.Infrastructure.Domain;
 using Polyg.Domain;
 using Polyg.Services;
+using AutoMapper;
 
 namespace Polyg
 {
@@ -33,6 +34,7 @@ namespace Polyg
             services.AddDbContext<PolygDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("masterdb")));
             services.RegisterDomainServices();
             services.RegisterBusinessServices();
+            services.AddAutoMapper(typeof(Startup));
             
         }
 

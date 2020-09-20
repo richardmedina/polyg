@@ -10,7 +10,7 @@ namespace Polyg.Domain.Repositories
 {
     public class AuthUserRepository : GenericAbstractRepository<AuthUser>, IAuthUserRepository
     {
-        internal AuthUserRepository(PolygDbContext context) : base(context)
+        public AuthUserRepository(PolygDbContext context) : base(context)
         {
 
         }

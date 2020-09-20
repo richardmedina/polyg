@@ -11,8 +11,8 @@ namespace Polyg.Domain
     {
         public static void RegisterDomainServices(this IServiceCollection services)
         {
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAuthUserRepository, AuthUserRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
 }

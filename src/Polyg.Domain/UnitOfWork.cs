@@ -9,14 +9,14 @@ namespace Polyg.Domain
     public class UnitOfWork : IUnitOfWork
     {
         private readonly PolygDbContext Context;
-        private readonly IAuthUserRepository _authUserRepository;
+
         public UnitOfWork(PolygDbContext context, IAuthUserRepository authUserRepository)
         {
             Context = context;
-            _authUserRepository = authUserRepository;
+            AuthUserRepository = authUserRepository;
         }
 
-        public IAuthUserRepository AuthUserRepository => _authUserRepository;
+        public IAuthUserRepository AuthUserRepository { get; }
 
         public int SaveChanges()
         {

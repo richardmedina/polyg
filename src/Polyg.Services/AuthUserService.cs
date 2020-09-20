@@ -1,4 +1,5 @@
-﻿using Polyg.Abstract.Domain;
+﻿using AutoMapper;
+using Polyg.Abstract.Domain;
 using Polyg.Abstract.Services;
 using Polyg.Contract.Domain;
 using Polyg.Contract.Services.AuthUser;
@@ -11,10 +12,12 @@ namespace Polyg.Services
     public class AuthUserService : IAuthUserService
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
-        public AuthUserService(IUnitOfWork unitOfwork)
+        public AuthUserService(IUnitOfWork unitOfwork, IMapper mapper)
         {
             _unitOfWork = unitOfwork;
+            _mapper = mapper;
         }
 
         public AuthUserDto AuthenticateUser(string userName, string password)
@@ -23,12 +26,7 @@ namespace Polyg.Services
                 .GetByUserName(userName);
 
             return authUser.UserName == userName && authUser.Password == password
-                ? new AuthUserDto
-                {
-                    Id = authUser.Id,
-                    UserName = authUser.UserName,
-                    Password = authUser.Password
-                }
+                ? _mapper.Map<AuthUserDto>(authUser)
                 : null;
         }
     }
