@@ -1,0 +1,18 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+using Polyg.Abstract.Domain;
+using Polyg.Domain.Repositories;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Polyg.Domain
+{
+    public static class Registration
+    {
+        public static void RegisterDomainServices(this IServiceCollection services)
+        {
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAuthUserRepository, AuthUserRepository>();
+        }
+    }
+}

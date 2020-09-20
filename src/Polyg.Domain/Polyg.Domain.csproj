@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Polyg.Abstract\Polyg.Abstract.csproj" />
+    <ProjectReference Include="..\Polyg.Infrastructure\Polyg.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
