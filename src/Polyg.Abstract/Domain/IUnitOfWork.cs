@@ -6,7 +6,7 @@ namespace Polyg.Abstract.Domain
 {
     public interface IUnitOfWork
     {
-        IAuthUserRepository GetAuthUserRepository();
+        IAuthUserRepository AuthUserRepository { get; }
         int SaveChanges();
     }
 }

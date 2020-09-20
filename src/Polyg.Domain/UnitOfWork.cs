@@ -16,10 +16,7 @@ namespace Polyg.Domain
             _authUserRepository = authUserRepository;
         }
 
-        public IAuthUserRepository GetAuthUserRepository()
-        {
-            return _authUserRepository;
-        }
+        public IAuthUserRepository AuthUserRepository => _authUserRepository;
 
         public int SaveChanges()
         {

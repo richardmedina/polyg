@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Polyg.Infrastructure.Domain;
 using Polyg.Domain;
+using Polyg.Services;
 
 namespace Polyg
 {
@@ -31,6 +32,7 @@ namespace Polyg
             services.AddControllers();
             services.AddDbContext<PolygDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("masterdb")));
             services.RegisterDomainServices();
+            services.RegisterBusinessServices();
             
         }
 

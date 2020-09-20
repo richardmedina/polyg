@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Polyg.Domain\Polyg.Domain.csproj" />
     <ProjectReference Include="..\Polyg.Infrastructure\Polyg.Infrastructure.csproj" />
+    <ProjectReference Include="..\Polyg.Services\Polyg.Services.csproj" />
   </ItemGroup>
 
 
