@@ -17,6 +17,12 @@ namespace Polyg.Infrastructure
         public static void AddJwtAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IJwtHandler, JwtHandler>();
+
+            var configSection = configuration.GetSection("Jwt");
+            var issuer = configSection.GetValue<string>("issuer");
+            var secretKey = configSection.GetValue<string>("secretKey");
+            var expiryMinutes = configSection.GetValue<int>("expiryMinutes");
+
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -26,14 +32,14 @@ namespace Polyg.Infrastructure
             {
                 cfg.RequireHttpsMetadata = false;
                 cfg.SaveToken = true;
-                var validIssuer = "http://localhost";
-                var secretKey = "AmNQ0itykVf7Dge3qdmq";
+                //var validIssuer = "http://localhost";
+                //var secretKey = "AmNQ0itykVf7Dge3qdmq";
                 var issuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
 
                 cfg.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateAudience = false,
-                    ValidIssuer = validIssuer,
+                    ValidIssuer = issuer,
                     IssuerSigningKey = issuerSigningKey
                 };
             });

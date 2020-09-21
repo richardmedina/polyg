@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Polyg.Common.Infrastructure.Jwt;
 using Polyg.Contract.Domain;
@@ -21,10 +22,14 @@ namespace Polyg.Infrastructure.Jwt
         }
         public AuthToken CreateToken(string userName)
         {
-            var configSection = _configuration.GetSection("jwt");
+            var configSection = _configuration.GetSection("Jwt");
             var issuer = configSection.GetValue<string>("issuer");
             var secretKey = configSection.GetValue<string>("secretKey");
-            var expires = DateTime.Now.AddMinutes(1);
+            var expiryMinutes = configSection.GetValue<int>("expiryMinutes");
+
+            Console.WriteLine($"Creating token: {issuer}, secretKey: {secretKey}, JWT: {JwtBearerDefaults.AuthenticationScheme}");
+
+            var expires = DateTime.Now.AddMinutes(expiryMinutes);
 
             var issuerSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
 
