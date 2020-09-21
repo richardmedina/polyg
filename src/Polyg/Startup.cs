@@ -11,10 +11,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Polyg.Infrastructure.Domain;
 using Polyg.Domain;
 using Polyg.Services;
 using AutoMapper;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Polyg.Infrastructure;
 
 namespace Polyg
 {
@@ -35,6 +39,7 @@ namespace Polyg
             services.RegisterDomainServices();
             services.RegisterBusinessServices();
             services.AddAutoMapper(typeof(Startup));
+            services.AddJwtAuthentication(Configuration);
             
         }
 
@@ -56,6 +61,8 @@ namespace Polyg
             {
                 endpoints.MapControllers();
             });
+
+            app.ConfigureJwtAuthentication(env);
         }
     }
 }

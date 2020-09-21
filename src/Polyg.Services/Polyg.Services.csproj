@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Polyg.Common\Polyg.Common.csproj" />
     <ProjectReference Include="..\Polyg.Contract\Polyg.Contract.csproj" />
+    <ProjectReference Include="..\Polyg.Infrastructure\Polyg.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

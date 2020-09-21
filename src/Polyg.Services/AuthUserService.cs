@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Polyg.Common.Domain;
+using Polyg.Common.Infrastructure.Jwt;
 using Polyg.Common.Services;
 using Polyg.Contract.Domain;
 using Polyg.Contract.Services.AuthUser;
@@ -13,21 +14,26 @@ namespace Polyg.Services
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly IJwtHandler _jwtHandler;
 
-        public AuthUserService(IUnitOfWork unitOfwork, IMapper mapper)
+        public AuthUserService(IUnitOfWork unitOfwork, IMapper mapper, IJwtHandler jwtHandler)
         {
             _unitOfWork = unitOfwork;
             _mapper = mapper;
+            _jwtHandler = jwtHandler;
         }
 
-        public AuthUserDto AuthenticateUser(string userName, string password)
+        public AuthToken AuthenticateUser(string userName, string password)
         {
             var authUser = _unitOfWork.AuthUserRepository
                 .GetByUserName(userName);
 
-            return authUser.UserName == userName && authUser.Password == password
-                ? _mapper.Map<AuthUserDto>(authUser)
-                : null;
+            if (authUser.UserName == userName && authUser.Password == password)
+            {
+                return _jwtHandler.CreateToken(userName);
+            }
+
+            return null;
         }
     }
 }

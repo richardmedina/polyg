@@ -26,11 +26,11 @@ namespace Polyg.Controllers
         [HttpPost]
         public IActionResult Auth([FromBody] AuthUserModel authUser)
         {
-            var user = _authUserService.AuthenticateUser(authUser.UserName, authUser.Password);
+            var authToken = _authUserService.AuthenticateUser(authUser.UserName, authUser.Password);
 
-            return user == null
+            return authToken == null
                 ? StatusCode(StatusCodes.Status401Unauthorized, null)
-                : StatusCode(StatusCodes.Status200OK, user);
+                : StatusCode(StatusCodes.Status200OK, authToken);
         }
     }
 }
