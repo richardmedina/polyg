@@ -7,6 +7,6 @@ namespace Polyg.Common.Services
 {
     public interface IAuthUserService
     {
-        AuthUserDto AuthenticateUser(string useName, string password);
+        AuthToken AuthenticateUser(string useName, string password);
     }
 }
