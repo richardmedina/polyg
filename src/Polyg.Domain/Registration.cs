@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Polyg.Abstract.Domain;
+using Polyg.Common.Domain;
 using Polyg.Domain.Repositories;
 using System;
 using System.Collections.Generic;

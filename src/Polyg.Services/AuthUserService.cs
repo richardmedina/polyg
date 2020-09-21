@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Polyg.Abstract.Domain;
-using Polyg.Abstract.Services;
+using Polyg.Common.Domain;
+using Polyg.Common.Services;
 using Polyg.Contract.Domain;
 using Polyg.Contract.Services.AuthUser;
 using System;

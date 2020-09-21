@@ -10,7 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Polyg.Abstract\Polyg.Abstract.csproj" />
+    <ProjectReference Include="..\Polyg.Common\Polyg.Common.csproj" />
+    <ProjectReference Include="..\Polyg.Contract\Polyg.Contract.csproj" />
   </ItemGroup>
 
 </Project>

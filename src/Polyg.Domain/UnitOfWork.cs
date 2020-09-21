@@ -1,4 +1,4 @@
-﻿using Polyg.Abstract.Domain;
+﻿using Polyg.Common.Domain;
 using Polyg.Infrastructure.Domain;
 using System;
 using System.Collections.Generic;
