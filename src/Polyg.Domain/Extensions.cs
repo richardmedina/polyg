@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Polyg.Domain
 {
-    public static class Registration
+    public static class Extensions
     {
         public static void RegisterDomainServices(this IServiceCollection services)
         {

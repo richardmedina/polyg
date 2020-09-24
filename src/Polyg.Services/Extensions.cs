@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Polyg.Services
 {
-    public static class Registration
+    public static class Extensions
     {
         public static void RegisterBusinessServices(this IServiceCollection services)
         {

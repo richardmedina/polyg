@@ -28,6 +28,11 @@ namespace Polyg.Services
             var authUser = _unitOfWork.AuthUserRepository
                 .GetByUserName(userName);
 
+            if (authUser == null)
+            {
+                return null;
+            }
+
             if (authUser.UserName == userName && authUser.Password == password)
             {
                 return _jwtHandler.CreateToken(userName);
