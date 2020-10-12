@@ -40,6 +40,14 @@ namespace Polyg
             services.RegisterBusinessServices();
             services.AddAutoMapper(typeof(Startup));
             services.AddJwtAuthentication(Configuration);
+
+            services.AddCors(options => options.AddDefaultPolicy(builder =>
+            {
+                builder
+                    .AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+            }));
             
         }
 
@@ -51,6 +59,7 @@ namespace Polyg
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors();
             app.UseHttpsRedirection();
 
             app.UseRouting();
