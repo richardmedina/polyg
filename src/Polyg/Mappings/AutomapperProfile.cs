@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Polyg.Contract.Domain;
 using Polyg.Contract.Services.AuthUser;
+using Polyg.Infrastructure.Domain.Entities;
 using Polyg.Models;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace Polyg.Mappings
     {
         public AutomapperProfile()
         {
+            CreateMap<AuthUserEntity, AuthUser>();
             CreateMap<AuthUser, AuthUserDto>();
             CreateMap<AuthUserDto, AuthUserModel>();
         }

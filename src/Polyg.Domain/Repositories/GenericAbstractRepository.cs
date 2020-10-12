@@ -1,20 +1,29 @@
-﻿using Polyg.Infrastructure.Domain;
+﻿using AutoMapper;
+using Polyg.Infrastructure.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Polyg.Domain.Repositories
 {
-    public class GenericAbstractRepository<TEntity> : AbstractRepository where TEntity : class
+    public class GenericAbstractRepository<TEntity, TDestType> : AbstractRepository
+        where TEntity : class
+        where TDestType : class
     {
-        public GenericAbstractRepository(PolygDbContext context) : base(context)
+        private readonly IMapper _mapper;
+        public GenericAbstractRepository(PolygDbContext context, IMapper mapper) : base(context)
         {
+            _mapper = mapper;
         }
 
-        public void Add (TEntity entity)
+        public TDestType Add (TDestType destType)
         {
+            var entity = _mapper.Map<TEntity>(destType);
+
             var dbSet = Context.Set<TEntity>();
-            dbSet.Add(entity);
+            var entry = dbSet.Add(entity);
+
+            return _mapper.Map<TDestType>(entry);
         }
     }
 }

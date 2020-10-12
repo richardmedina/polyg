@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polyg.Infrastructure", "Pol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polyg.Services", "Polyg.Services\Polyg.Services.csproj", "{2B5D8507-AE47-44C6-89F8-A6610EC90DE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.Common", "Polyg.Common\Polyg.Common.csproj", "{2B2B3772-45FF-4F42-B851-BC970E22CCDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polyg.Common", "Polyg.Common\Polyg.Common.csproj", "{2B2B3772-45FF-4F42-B851-BC970E22CCDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.UnitTests", "Polyg.UnitTests\Polyg.UnitTests.csproj", "{D106413B-3C83-4F53-88A2-B194ED1A8588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyg.IntegrationTests", "Polyg.IntegrationTests\Polyg.IntegrationTests.csproj", "{AF457354-E412-4015-81A7-F5C9D837D0BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{2B2B3772-45FF-4F42-B851-BC970E22CCDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B2B3772-45FF-4F42-B851-BC970E22CCDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B2B3772-45FF-4F42-B851-BC970E22CCDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D106413B-3C83-4F53-88A2-B194ED1A8588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D106413B-3C83-4F53-88A2-B194ED1A8588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D106413B-3C83-4F53-88A2-B194ED1A8588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D106413B-3C83-4F53-88A2-B194ED1A8588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF457354-E412-4015-81A7-F5C9D837D0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF457354-E412-4015-81A7-F5C9D837D0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF457354-E412-4015-81A7-F5C9D837D0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF457354-E412-4015-81A7-F5C9D837D0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

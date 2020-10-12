@@ -9,5 +9,6 @@ namespace Polyg.Common.Domain
     {
         AuthUser GetById(long id);
         AuthUser GetByUserName(string userName);
+        AuthUser Add(AuthUser authUser);
     }
 }

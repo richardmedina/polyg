@@ -1,0 +1,771 @@
+﻿Cumbersome - And that is cumbersome - Engorroso
+
+As long as - As long as we don’t that - Mientras
+
+Boost - This may boost the productivity - Aumentar/Impulsar
+
+Dirty - Let’s get our hands dirty - Ensuciar
+
+There by - There by whenever - de esta forma/por lo tanto, cada vez
+
+I fucked up - la cagué
+
+Goddamnit - maldita sea
+
+Spit out - escupir 
+
+Picks out - escoge
+
+Pick off - recoger
+
+Picked up - I picked up a pair of pears
+
+Settle - don’t settle conformar
+
+You don’t know a whole lot about - No sabes mucho de 
+
+sleeker - mas elegante - And that’s kind of this sleeker way to write that same code
+
+lined up - alineado - this line is lined up with 
+
+mess things up - estropear - it’s really easy to mess this up
+
+cheer up - animate
+
+speak up - hablar was alto
+
+to put up with - tolerar - how you put up with him
+
+make up - he made up a story
+
+straight after - justo después
+ 
+I’m gonna stick with this way - Me voy a queer con esta forma
+
+Steady growth of storage needs - Constante crecimiento en necesidades de almacenamiento
+
+High throughput - Alto rendimiento
+
+outage - apagón
+
+unabated - sin disminución
+
+for as long as you need it - por el tiempo que lo necesites
+
+Frees up an organization - libera a una organization
+
+outcomes - resultados
+
+Has already done so - Ya lo ha hecho asi
+
+Until there is a spike in demand - hasta que haya un aumento/pico en la demanda
+
+That being said - habiendo dicho eso
+
+it’s quite a bit tricky - es bastante complicado
+
+it’s up to you - to decides
+
+put it this way/look at this way - en otras palabras
+
+enough already - basta
+
+are you done - ya terminaste?
+
+cut the BS (bullshit)/knock it off - para!
+
+we will have it SO we can retrieved - lo tendremos para poder recuperar
+
+I’m going to give you a heads up - Voy a darte un aviso
+
+Where the tradeoffs are: - donde estan las compensasiones
+
+To get ahead of this - Para avanzar en esto
+
+** you know way too much about me - Sabes mucho de mi
+
+why do you have to be so mean - porque tines queen her tan malo
+
+I was a jerk - era un idiota
+
+sexual harassment - acoso sexual
+
+All the kids will make fun on me - todos los niños se burlaran de mi
+
+I can't take this anymore - no puedo soportar esto mas
+
+don't be mean - no seas malo
+
+chased - perseguido
+
+That just breezed in the door - eso acaba de entrap for la puerta
+
+yellow/yellowbelly - gallina
+
+coffin - ataúd
+
+Might as well be prepared - podría tambien estar preparado
+
+break this down into components - descomponer pesto en components
+
+then break that down even further - y entonces descomponerlo en components
+
+I am not making this up - No estoy inventando esto
+
+chilling - relajando
+
+as what goes here - Como va/esta aquí
+
+The more you click it the more underscore hellos get appended to that text - entre mas hagas click mas guion bajo hola sera agregado a ese texto
+
+There is no point to write - N obtiene sentido escribir
+
+This is why we break our code up the way it does - Esta es la razor por la que rompemos nuestro coding de la forma en que lo hace.
+
+and keeping this in back of your mind - y manteniendo esto en mente
+
+This will make more sense the more you code in React - Esto hara mas sentido mientras mas codifiques en react.
+
+
+The components that might need some tidying up - los componentes que podia necesitar un poco de limpieza
+
+so along the way I’m going to ask you to code along- así que en el camino te voy a pedir que codifiques 
+
+so if you feel like hey I feel I only know - asi que si ten sientes como “Hey me siento como que solo sé”
+
+I really flashed out and fully complete platform - Una brillante y completa plataforma
+
+I’d just like to point out something that will help you get the most out of this course - Solo me gustaría señalar algo que lo ayudara a aprovechar al máximo este cuso
+
+To code along as we build this - codificar mientras construimos esto
+
+And we put down this link - y ponemos este link
+
+what we just Pulled down - Lo que acabamos de bajar
+
+because we don’t really need any lifecycle methods at this point nor do we need to store any state - Porque no realmente no necesitamos ningún método de ciclo de vida ni almacenar ningún estado
+
+and this is equivalent to us having done - Y esto es equivalente para nosotros a tener hecho.
+
+it just turned out we didn’t save it - resulto que no lo guardamos.
+
+this is actually way way easier - esto es realmente mucho mas fácil.
+
+anything in this spot after - cualquier cosa después de este lugar.
+
+that’s the main use that we get out of the history prop - ese es el uso principal que sacamos de la propiedad history.
+
+And so o and so forth - y asi sucesivamente.
+
+If we were to imagine - si tuviéramos que imaginar 
+
+It’s a very large picture kind of library - es una librería del tipo ‘gigantesca imagen’
+
+Can be anything we want it to be - Puede ser lo que queramos que sea
+
+I know this is a lot of redux juggling - Sé que esto es un wonton de malabarismo de redux
+
+which are the squiggles - que son los garabatos
+
+We need to be able to scope out everything that we need before we start building it - necesitamos abarcar todo lo que necesitamos antes de empezar a construirlo
+
+So let’s start building this out - asi que empecemos a construir esto.
+
+it is kind of daunting - es mas o menos desalentadora.
+
+The sticking point - el punto de fricción
+
+it is a lot of moving around - es mucho movimiento
+
+Just to remember all of the parts of flowing through - solo para recordar todas las partes del flujo
+
+The more practice we have the better it gets - entre mas practica tengamos mejor
+
+I want to take a second and say how proud I am of you for having completed the course up until this section - Quiero tomar un segundo y decir cuan orgulloso estoy de ti por haber completado el curso hasta esta seccion
+
+the way that we tackle features and we think about how to break them down and splay out the problems and then correspondingly solve them in the existing architecture that we are now so familiar with - La forma en que abordamos characteristics y pensamos como descomponerlas y exponer los problemas y luego resolverlos correspondientemente en la arquitectura existente con la que ahora estamos tan familiarizados
+
+And that is the string that we are currently on our URL from - y este es el string de donde estamos actualmente en nuestra URL
+
+ It will take way longer - tomare mas tiempo
+
+what it is most likely - qué es lo mas  probable
+
+this is all going to be base of a case by case basis when you are in a professional setting - y todo esto sera la base de un caso por caso cuando estes en un entorno profesional
+
+You’ll be given designs or king of like a basic product outline of what they want the application to have - te darán una esquema básico de producto de lo que quieren que tenga la aplicación.
+
+and here is where you kind of ask these questions if you are unsure - y aqui es donde tu tipo preguntas esas preguntas si no estas seguro
+
+this knowledge will really sink in as to why we write code the way we do - este conocimiento realmente se entenderá porque escribimos código de la manera en que lo hacemos
+
+this is a little bit of a sidetrack - eso es un poco de desvío
+
+from this point onwards - de aqua en adelante
+
+we really got to start thinking - realmente tenemos que empezar a pensar
+
+one of the most contested topics - uno de los temas mas disputados
+
+why it is such a hot topic - porque es un tema tan candente
+
+
+browsers were not that powerful back then as they are are now - navegadores no eran tan poderosos en aquel entonces como lo son ahora
+
+knee jerk - iron de rodilla
+
+is that worth it - eso vale la pena?
+
+are the tradeoffs worth it - las compensaciones valen la pena?
+
+you are able to make theses judgement calls - eres capas de hacer estas llamadas al juicio
+
+this is what I wanted to us to learn - esto es lo que quería que aprendiéramos
+
+we can even make this a step further - podemos incluso ir un paso mas allá
+
+If we were to keep this data - si quisiéramos mantener esta información
+
+it would be hard to guarantee that both data are in the exact same - sería didicil garantizar que ambos datos están son lo mismo
+
+and so on and so forth - y así sucesivamente
+
+you don't have to get too caught up in them - no tienes que quedarte atrapado en ellos
+
+We have written some code and it is nitty gritty - y es un poco arenoso
+ 
+It’s a back to back event - es un evento consecutivo
+
+This is pretty much all it is - esto es mas o menos lo que es esto
+
+let me explain some key concepts along the way - defame explicarte algunos conceptos clave en el camino
+
+the more and more we do this the better there better we’ll understand - entre mas y mas lo hagamos mejor y mejor lo entenderemos
+
+we don’t have to go back and forth between files - no tenemos que ir y venir entre archivos
+
+a boolean telling us if there's anything else in the function to run or has it run through its entire course - un booleans diciéndonos si hay alguna otra cosa a ejecutar en la function o ha ejecutado su curso completo
+
+it’s like a technical jargon - es como una jerga tecnica
+
+This does not stop every other action from getting the code from running - esto no evita que el coding de las otras acciones sean ejecutadas.
+
+ It’s all I long for - es todo lo que anhelo
+
+I’ve only know her a week - solo la conozco de una semana
+
+it is a little bit upsy-downs - es un poco subido de tono
+
+ I swear to god, If I see this - juro por dios
+
+Checking ing for ricardo Medina - haciendo checkin para ricardo Medina
+
+We soared way past the friend zone - vamps has alla de la zona de amigos
+
+we should get going, we are going to be late - debemos seguir, llegaremos tarde
+
+we’ll catch up at the welcome mixer - now pondremos al dia en el mezclador de bienvenida.
+
+this is so dumb - pesto es may tonto
+
+and you soak for a long time - y the empapas por largo tiempo 
+
+catch you in a few - te atrapo en un rato
+
+We are we to get in the way of destiny - quienes somos para interponernos en el camino del destino
+
+I think it’s time to hit the road - Creo que es hora de irnos
+
+Cough it up Richard - Escúpelo Richard
+
+he still calls every once in a while - el todavía llama de vez en cuando
+
+Not with those brick hands - No con esas manos de ladrillo
+
+it is going to blow your mind - va a sorprenderte por completo
+
+before I bitch-slap you in front of all these motherfuckers - antes de que te golpee delante de todos estop hijos de puta.
+
+back off - apartate
+
+Peace out - tranquilizate
+
+The older woman she she was with seemed extremely emotional - la mujer mayor que estate con ella parecia extremadamente emocional.
+
+someone is been meddling in my marriage - alguien se ha estado entrometiendo en mi matrimonio.
+
+When my dad passed away - cuando mi padre fallecio
+
+I been tryna call - he estado intentando llama
+
+I been on my own for long enough - he estado solo por el tiempo suficiente.
+
+Cause I can see the sun light up the sky - porque puedo ver el sol iluminar el cielo.
+
+I gotta head home - tengo queen rime a casa
+
+Do you know whose it was/is? - sales de quien era/es?
+
+You’ll get me into trouble - me meteras en un problema
+
+let’s get to it - hagamoslo
+
+when will I get to see them again? - candy volveré a velars de nuevo?
+
+why are you hanging out with these weirdos - porque andas con estos bichos faros?
+
+Are you gonna doit. Put your dancing lesson to use? - lo vas a hater? power tush’s lecciones de bale en practica
+
+you know, let me put this straight - sabes? dejame aclarar estop
+
+Don’t get mad at me - no te enojes conmigo
+
+She could use a little help with that - ella podria necesitar ayuda con eso
+
+I’ll take you up on that offer - aceptare era oferta
+
+he is so cocky - el es tan arrogante
+
+You messed with us - te metiste con nosotros
+
+the deadliest super weapon - el arma mas mortal
+
+The android wiped out earth’s special forces - Los androides aniquilaron las fuerzas especiales de la tierra
+
+survivors around the world had to flee their homes - sobrevivientes alrededor del mundo tuvieron que huir de sus hogares
+
+stronghold - fortaleza
+
+They were stripped of their humanity - fueron despojados de su humanidad
+
+Let’s just get it over with - vamos a terminarlo de una vez
+
+How do you like working here - que te parece trabajar aqui?
+
+Everyone has been really nice to me - todos han sido muy amables conmigo
+
+We are having a get together at my house saturday night - Nos reuniremos en mi casa el sábado por la noche
+
+I was flattered - Yo estaba halagado
+
+the place was so packed - el lugar estaba tan lleno
+
+It was onto a bad start - estaba empezando mal
+
+I ran into Jason and he was already wasted - me tope con Jason y ya estaba borracho
+
+Jason had a vile temper - meson tenia un mal temperamento
+
+We’ll get to that later - llegaremos a eso después
+
+The music was blaring - la music estaba muy alta
+
+Someone get jump - atacaron a alguien
+
+Jason jumped chase - Jason ataco a chase
+
+Chase left the house limping , but not before barfing in front of the house - Chase se fue de la casa cojeando, pero no antes de vomitar frente a la casa
+
+They came to crash the party - Ellos vinieron a arruinar la fiesta
+
+Everyone had to call it a night - todo el mundo tuvo que irse a casa
+
+I would’ve stayed home - me hubiera quedado en casa
+
+so much for going swimming - todo por ir a nadar
+
+I Assure you we are on track - te aseguro que estamos en la pista
+
+Will they be able to follow along with your stories - podrán seguir sus historia?
+
+Five minutes go by - pasan 5 minutos
+
+They freaked out - se asustaron
+
+he knows when I’m at the point where I have crossed over - el sabe cuando estoy en el punto die haber cruzado la linea
+
+If you witness an incident - si eres testigo de un incidente
+
+This change happened long back - está cambio sucedió hace mucho
+
+I gotta run a few errands - necesito hacer algunos pendientes
+
+I just freeze under pressure - solo me paralizo bajo person
+
+just roll down the window - solo baja la ventana
+
+Mind your own business - metete en tus asuntos
+
+I’ll mess you up man - te arruinare hombre!
+
+Let’s toast to my friends - brindemos por mis amigos 
+I’m flossing - Estoy usando el hilo dental
+
+I’m afraid so - me temo que si
+
+That sounds like it just fell out of a mystery novel - suena como si acabara de salir de una novela de misterio
+
+Name like that, you’d have to be the bad guy - Con un nombre como ese, tu tendrias que ser el tipo malo
+
+The whole thing is tawdry, I know - Todo es de mal gusto, ya se
+
+Why you are turning down the opportunity of a lifetime - porque estas rechazando la oportunidad de tu vida
+
+The same ones that told you you were about to get laid in there - los mismos que te dijeron que ibas a hectare un polvo ahi dentro
+
+I’m not getting laid - no voy a hectare un polvo?
+
+she is had it all done - Ella ha hecho de todo
+
+I have some guests I like you to meet - Tngo unos invitados que me gustaría que conozcas
+
+Or so the legend says - O eso dice la leyenda
+ I’d like to address my guest privately - me gustaría dirigirme a mis invitados privadamente
+
+when you begin to stock of life - cuando empiezas a tomar un balance de vida 
+
+did you ever fool around on a boat - alguna vez bromeaste en un bote
+
+That is not it - Eso no es todo
+
+he is the sole blood heir - el es el heredero de sangre
+
+We went past it - nos pasamos
+
+what is there to be jealous, he is rich - porque estar celoso, el es rico!
+
+we can get to know each other - podemos conocernos
+
+I can’t believe this just happened - no puedo creer que esto acaba de pasar
+
+How are you affording this trip - como estas pagando este viaje?
+
+we’ll get into all that, ok? - entraremos en todo eso ok?
+
+You need to get out of spain right away - necesitas salir de españa inmediatamente!
+
+I got you into this, I’ll help get you out - te meti en esto ahora te ayudare a salir de esto
+
+with your aim - con tu punteria
+
+I just have to dash in for a quick appointment with my lawyer - solo tengo que entrar corriendo por una cita rapid con mi abogado
+
+we are being framed right now - estamos siendo incriminados ahora
+
+We are screwed - estamos jodidos
+
+We apologize ahead of time - nos disculpamos antes de tiempo
+
+facing the thing you are least want to face - Enfrentando lo que menos quieres enfrentar
+
+That wasn’t such a big deal - no fue gran cosa
+
+If I were in your position I got to be honest, I’d feel the same exact way - si estuviera en tu position me sentiria exactamente igual
+
+the yes ladder - la escalera del si
+
+Find a parking spot - busca un lugar de estacionamiento
+
+I know at universities it can get jam-packed in their parking lots - se que en las universidades los estacionamientos se pueden llenar.
+
+You are picking on him - te estas metiendo con el
+
+it’s itchy skin - es picazon en la piel
+
+it’s flaky skin - piel escamosa
+
+Leaving for where - llendose para donde?
+
+there better be a sign - sera mejor que haya un signo
+
+You were great all the way through - Estuviste genial durante todo el camino
+
+Enough already - ya vasta
+
+just nod - solo asiente
+
+Let me just jog your memory for a minute - solo dejame refrescarte la memoria por un minuto
+
+You are not blameless in this - no eres inocente en esto
+
+I could give a fuck - me importa un carajo
+
+I have been to the Wendy’s city - he estado en la ciudad de Wendy
+
+In a roundabout way - de una manera indirecta
+
+You intent to make money off of businesses that aren’t making any? - intentas hacer dinero de negocios que no generan nada?
+
+Investing oversight - supervision de inversiones
+
+And you got those tenants that are suing you - y tienes esos inquilinos que te estancia demandando
+
+To and fro across the lake - de un lado a otro del lago
+
+skipper - patron
+
+new tricks don’t appeal to me - no me atraen los nuevos trucos
+
+I don’t want to be hemmed in - no quiero estar cercado/encerrado
+
+Been very nice meeting you - Ha sido un placer conocerte
+
+alive and well, swapping his amex - vivito y coleando usando su amex.
+
+This was a dodge - fue una evasiva
+
+I shit you not - no te cago
+
+This could mess them up for life - podia arruinarles la vida
+
+he got no fucking rest - el no descansaba
+
+I wanna know how this got here - Quiero saber como llego esto Aquinos
+
+I’ll see if the old man is got a wheelbarrow - here si el anciano tiene una carretilla
+
+This is so fucked isn’t it - esto es una mierda verdad?
+
+it’s always been a little bit off - siempre fue un poco extraño
+
+to make a point - para mandar un mensaje
+
+I’m getting used to betrayal - Me estoy acostumbrando a la traction
+
+Take it up with Marty - hablalo con Marty
+
+I’m sensing a trend - ya veo por donde vas
+
+That there what you meant - ese lugar es lo que quisiste decir
+
+Fill it up - llénalo
+
+Please tell me you have some in the back - por favor dime que tienes algo en el Almaden 
+Can you no tell the difference - Entiende la diferencia?
+
+What the hell are they doing so near our house? - que dominos hacen ellos tan cerca de la casa
+ 
+Nothing good is ever come from - nada bueno nunca viene de la falta
+
+Let me level with you - defame ser sincero
+
+Smoke and mirrors - trucos de magia
+
+What do I gotta do - que tengo que hacer?
+
+Just think it through - solo piensalo
+
+Thanks for checking on me the other night - gracias por ver si estaba bien la otra noche
+
+Wasn’t that you? - no eras tu?
+
+nice chatting with you - agradable hablar con usted
+
+Don’t get my hopes up - no me hagas ilusiones
+
+What’s not to like - por que no iba a gustarles?
+
+I mean it! now - Lo digo en serio, ahora!
+
+Run it over with your car - aplastarlo con tu coche
+
+Spit it out, Wendy - escúlpelo, Wendy
+
+You are so petty - eres muy minucioso
+
+I can’t make up my mind- no puedo decidirme
+
+I’m glad I could help - Me alegra poder ayudar
+
+I’ll get right on it - me pondre en ello de inmediato
+
+There is something I have been meaning to say - hay algo que he querido decirte
+
+
+somebody just got her a new disc - alguien le acaba de dar un nuevo disco
+
+Loud and clear - fuerte y claro
+
+They gave it to me to ward off stalkers - me lo dieron para protegerme de los acosadores
+
+I’m so glad he got us back together - me alegra que el haya vuelto a reunirnos
+
+I didn’t know Phoenix being this cold - No sabia que phoenix era tan frio
+
+But you are way hotter in person - pero eres mucho mas hermosa en persona
+
+How long are you in town for? - Por cuanto tiempo esters en el pueblo?
+
+You can’t stay any longer? - no te quedaras mas tiempo?
+
+oh here you go again - Oh Aqui vas otra ves
+
+Where you that mad at me - te molestaste conmigo?
+
+You were never a dweeb, chris - nunca fuiste un nono
+
+It’s nothing but total insanity - No es mas que locura
+
+I’m stuffed - estoy satisfecho
+
+I should’ve just kissed her - solo debi haberla besado!
+
+She is got a bit of a headache - tiene un ligero dolor de cabeza
+
+Let me make it up to you - dejame compensarte
+
+I have already my soulmate - ya tengo a mi media naranja
+
+what a schmuck - pero que idiota!
+
+I don’t wanna make this weird but you look incredible - no quiero hacer esto raro pero te vex incredible
+
+I can’t get over how great you look - no puedo creer lo genial que te vez
+
+I was born ready - naci listo
+
+The sooner I get out of here, the better - cuanto mas pronto salga de aqui mejor
+
+It’s been nice seen you - fue bueno verte
+
+I can’t let you get away with this - no te puedo dejar que te salgas con la tuya
+
+I’m outta here - Me voy de aquí
+
+Stop bringing Dusty into your problems ok? - deja de meter a Dusty en tus problemas
+
+I said a lot of really crappy things the other night - se que dije muchas cosas estupidas la otra noche
+
+I am there for her as a friend - Estoy ahi para ella como amigo
+
+I have your back - yo te cubro
+
+I want you to back me up - Quiero que me cubras
+
+I’ll cover for you - te cubrire
+
+Will you cover for me - me puedes cubrir
+
+You have to bail him out - tienes que rescatarlo
+
+Don’t put yourself out - no te expongas
+
+Could you lend me a hand - me puedes echar una mano
+
+I’m gonna give you the benefit of the doubt - te dare el beneficio de la duda
+
+We will bend over backward for you - haremos hasta la imposible por ayudarte
+
+Can you put in a good word for me - puedes hablar bien de mi?
+
+I’ll take him under my wing - Yo lo ayudare
+
+ Im really into movies - me encantan las películas
+
+Where are you headed, I’m headed to Phoenix - a donde vas? Me dirijo a Phoenix
+
+How far is it to the hospital, it’s about 100miles - que lejos esta el hospital, it’s about 100 millas
+
+How’s work going - como te va en el trabajo?
+
+Have you ever been to Mexico - has ido alguna vez a Mexico
+
+I’m just thinking out loud about my career - Solo estoy pensando new voz alta acerca de mi carrera
+
+This has me thoroughly taken - lo que me ha conquistado
+
+This is something to ponder - Esto es algo para reflexionar
+
+Did you stop to wonder why? - Te detuviste a preguntarte porque?
+
+It would all come down to that, wouldn’t it? - Todo se reduciría a eso, cierto?
+
+I won’t take much of your time. I just wanted to simply introduce myself - No voy a robarte much tiempo, solo queria simplemente presentarme
+
+I wanna make cristal clear is that, you know, you all have rights - quiero dejar bien claro que todos ustedes tienen derechos
+
+Turning down money doesn’t like you - no te gusta rechazar dinero
+
+I’m not gonna stand up here and disparage your former boss - No voy a pararme y menospreciar a su exjefe
+
+All for the better - todo para mejorar
+
+I gotta check - Tengo que checarlo
+
+There’s no point hiding - no hay razor para ocultarse
+
+The clock is ticking - el tiempo se acaba
+
+Joshua doesn’t stand a chance against Peter - Joshua no tiene oportunidad contra Peter
+
+There’s one thing I don’t get - hay una cosa que no entiendo
+
+It might have been funny - Podria haber sido divertido
+
+It might be funny - podria ser divertido
+
+It might have been him -  Podria haber sido divertido
+
+when it comes to relationship, I can be difficult - Cuando se trata de relaciones yo puedo ser didicil
+
+I can’t believe my eyes - No puedo creer lo que veo
+
+Hang in there - No te rindas!
+
+You’re out of line/ You crossed the line - te pasaste de la raya
+
+It’s too late to back down now - ahora, es muy tarde para arrepentirse
+
+She just blow me off - Ella solo me ignora
+
+just blow off his comments, he doesn’t really mean them - No hagas caso a sus comentarios, no los dice en serio
+
+I didn’t mean to offend anyone - no quise ofender a nadie
+
+I’m really trying to break out of my regular daily routine - Estoy tratando realmente de romper mi rutina diaria
+
+Let’s get together so you can break down the assignment for me - vamos a juntarnos para que me puedas desmenuzar la tarea
+
+I need someone to break it down for me - Necesito que alguien me lo explique con mas claridad
+
+We need to break through the barriers to build better software - necesitamos atravesar las barreras para construir mejor software
+
+I need to brush up on my english skills - necesito repasar mis habilidades en ingles
+
+To brush off a negative comment - ignorar un comentario negativo
+
+You’ve been rushing me all morning, and you need to chill out - Me has estado apresurando toda la mañana y tienes que tranquilizarte
+
+I can’t get enough of this - no puedo obtener lo suficiente de
+
+I enjoy your smile - Disfruto tu sonrisa
+
+I have a passion for creating new things - Tengo una passion por crear nuevas cosas
+
+He is crazy about new things - esta loca por nuevas cosas
+
+I’m big on communication - La communication es clave para mi
+
+I fond of good food - Soy aficionado de la buena comida
+
+you mean a lot to me - significas mucho para me
+
+I think the world of you - significas el mundo para mi
+
+I care very much about you - te quiero mucho
+
+that’s sounds like something right up my alley - suena como algo que me interesa
+
+Building software is my thing - Construir software es lo mio
+
+There is nothing I admires more than a girls reading a book - No hay nada que admire mas que una mujer leyendo un libro.
+
+Don’t beat around the bush - No te andes con rodeos
+
+Can you hand me my phone - me puedes pasar mi teléfono
+
+Hand me my purse, will you ? - pásame mi bolso quieres?
+
+Will you pass me that glass - me pasas esa taza?
+
+A little over 20 years ago - Hace poco mas de 20 anios
