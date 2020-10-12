@@ -23,7 +23,7 @@ namespace Polyg.Domain.Repositories
             var dbSet = Context.Set<TEntity>();
             var entry = dbSet.Add(entity);
 
-            return _mapper.Map<TDestType>(entry);
+            return _mapper.Map<TDestType>(entry.Entity);
         }
     }
 }
