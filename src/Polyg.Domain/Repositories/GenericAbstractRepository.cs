@@ -3,6 +3,7 @@ using Polyg.Infrastructure.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Polyg.Domain.Repositories
 {
@@ -16,12 +17,12 @@ namespace Polyg.Domain.Repositories
             _mapper = mapper;
         }
 
-        public TDestType Add (TDestType destType)
+        public async Task<TDestType> AddAsync (TDestType destType)
         {
             var entity = _mapper.Map<TEntity>(destType);
 
             var dbSet = Context.Set<TEntity>();
-            var entry = dbSet.Add(entity);
+            var entry = await dbSet.AddAsync(entity);
 
             return _mapper.Map<TDestType>(entry.Entity);
         }

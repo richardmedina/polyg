@@ -2,11 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Polyg.Common.Services
 {
     public interface IAuthUserService
     {
-        AuthToken AuthenticateUser(string useName, string password);
+        Task<AuthToken> AuthenticateUserAsync(string useName, string password);
     }
 }

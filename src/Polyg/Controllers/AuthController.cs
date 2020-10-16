@@ -24,9 +24,9 @@ namespace Polyg.Controllers
         }
 
         [HttpPost]
-        public IActionResult Auth([FromBody] AuthUserModel authUser)
+        public async Task<IActionResult> Auth([FromBody] AuthUserModel authUser)
         {
-            var authToken = _authUserService.AuthenticateUser(authUser.UserName, authUser.Password);
+            var authToken = await _authUserService.AuthenticateUserAsync(authUser.UserName, authUser.Password);
 
             return authToken == null
                 ? StatusCode(StatusCodes.Status401Unauthorized, null)

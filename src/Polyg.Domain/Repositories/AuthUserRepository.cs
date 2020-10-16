@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Polyg.Common.Domain;
 using Polyg.Contract.Domain;
 using Polyg.Infrastructure.Domain;
@@ -7,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Polyg.Domain.Repositories
 {
@@ -18,18 +20,18 @@ namespace Polyg.Domain.Repositories
             _mapper = mapper;
         }
 
-        public AuthUser GetById(long id)
+        public async Task<AuthUser> GetByIdAsync(long id)
         {
-            var authUser = Context.AuthUsers
-                .FirstOrDefault(authUser => authUser.Id == id);
+            var authUser = await Context.AuthUsers
+                .FirstOrDefaultAsync(authUser => authUser.Id == id);
 
             return _mapper.Map<AuthUser>(authUser);
         }
 
-        public AuthUser GetByUserName(string userName)
+        public async Task<AuthUser> GetByUserNameAsync(string userName)
         {
-            var authUserEntity = Context.AuthUsers
-                .FirstOrDefault(authUser => authUser.UserName == userName);
+            var authUserEntity = await Context.AuthUsers
+                .FirstOrDefaultAsync(authUser => authUser.UserName == userName);
 
             return _mapper.Map<AuthUser>(authUserEntity);
         }

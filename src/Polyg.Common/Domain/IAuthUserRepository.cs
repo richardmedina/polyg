@@ -2,13 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Polyg.Common.Domain
 {
     public interface IAuthUserRepository
     {
-        AuthUser GetById(long id);
-        AuthUser GetByUserName(string userName);
-        AuthUser Add(AuthUser authUser);
+        Task<AuthUser> GetByIdAsync(long id);
+        Task<AuthUser> GetByUserNameAsync(string userName);
+        Task<AuthUser> AddAsync(AuthUser authUser);
     }
 }

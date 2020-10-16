@@ -7,6 +7,7 @@ using Polyg.Contract.Services.AuthUser;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Polyg.Services
 {
@@ -23,10 +24,10 @@ namespace Polyg.Services
             _jwtHandler = jwtHandler;
         }
 
-        public AuthToken AuthenticateUser(string userName, string password)
+        public async Task<AuthToken> AuthenticateUserAsync(string userName, string password)
         {
-            var authUser = _unitOfWork.AuthUserRepository
-                .GetByUserName(userName);
+            var authUser = await _unitOfWork.AuthUserRepository
+                .GetByUserNameAsync(userName);
 
             if (authUser == null)
             {

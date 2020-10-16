@@ -3,6 +3,7 @@ using Polyg.Infrastructure.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Polyg.Domain
 {
@@ -18,9 +19,9 @@ namespace Polyg.Domain
 
         public IAuthUserRepository AuthUserRepository { get; }
 
-        public int SaveChanges()
+        public async Task<int> SaveChangesAsync()
         {
-            return Context.SaveChanges();
+            return await Context.SaveChangesAsync();
         }
     }
 }
