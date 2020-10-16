@@ -9,6 +9,7 @@ namespace Polyg.Infrastructure.Domain
     public class PolygDbContext : DbContext
     {
         public DbSet<AuthUserEntity> AuthUsers { get; set; }
+        public DbSet<LanguageEntity> Languages { get; set; }
 
         public PolygDbContext(DbContextOptions<PolygDbContext> options) : base(options)
         {
