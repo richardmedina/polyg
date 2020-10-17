@@ -17,6 +17,8 @@ namespace Polyg.Mappings
             CreateMap<AuthUserEntity, AuthUser>();
             CreateMap<AuthUser, AuthUserDto>();
             CreateMap<AuthUserDto, AuthUserModel>();
+
+            CreateMap<LanguageEntity, Language>();
         }
     }
 }

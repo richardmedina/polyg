@@ -21,10 +21,9 @@ namespace Polyg.Domain.Repositories
         {
             var entity = _mapper.Map<TEntity>(destType);
 
-            var dbSet = Context.Set<TEntity>();
-            var entry = await dbSet.AddAsync(entity);
+            var addedEntity = await base.AddAsync(entity);
 
-            return _mapper.Map<TDestType>(entry.Entity);
+            return _mapper.Map<TDestType>(addedEntity);
         }
     }
 }

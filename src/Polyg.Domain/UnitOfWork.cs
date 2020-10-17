@@ -11,13 +11,15 @@ namespace Polyg.Domain
     {
         private readonly PolygDbContext Context;
 
-        public UnitOfWork(PolygDbContext context, IAuthUserRepository authUserRepository)
+        public UnitOfWork(PolygDbContext context, IAuthUserRepository authUserRepository, ILanguageRepository languageRepository)
         {
             Context = context;
             AuthUserRepository = authUserRepository;
+            LanguageRepository = languageRepository;
         }
 
         public IAuthUserRepository AuthUserRepository { get; }
+        public ILanguageRepository LanguageRepository { get; }
 
         public async Task<int> SaveChangesAsync()
         {

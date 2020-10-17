@@ -12,6 +12,7 @@ namespace Polyg.Domain
         public static void RegisterDomainServices(this IServiceCollection services)
         {
             services.AddScoped<IAuthUserRepository, AuthUserRepository>();
+            services.AddScoped<ILanguageRepository, LanguageRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
