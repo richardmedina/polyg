@@ -8,6 +8,7 @@ namespace Polyg.Common.Domain
     public interface IUnitOfWork
     {
         IAuthUserRepository AuthUserRepository { get; }
+        ILanguageRepository LanguageRepository { get; }
         Task<int> SaveChangesAsync();
     }
 }

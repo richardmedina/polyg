@@ -10,6 +10,6 @@ namespace Polyg.Common.Domain
     {
         Task<AuthUser> GetByIdAsync(long id);
         Task<AuthUser> GetByUserNameAsync(string userName);
-        Task<AuthUser> Add(AuthUser authUser);
+        Task<AuthUser> AddAsync(AuthUser authUser);
     }
 }

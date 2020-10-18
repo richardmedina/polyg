@@ -11,6 +11,7 @@ namespace Polyg.Services
         public static void RegisterBusinessServices(this IServiceCollection services)
         {
             services.AddScoped<IAuthUserService, AuthUserService>();
+            services.AddScoped<ILanguageService, LanguageService>();
         }
     }
 }

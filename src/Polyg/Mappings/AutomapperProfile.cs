@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Polyg.Contract.Domain;
 using Polyg.Contract.Services.AuthUser;
+using Polyg.Contract.Services.Language;
 using Polyg.Infrastructure.Domain.Entities;
 using Polyg.Models;
 using System;
@@ -19,6 +20,7 @@ namespace Polyg.Mappings
             CreateMap<AuthUserDto, AuthUserModel>();
 
             CreateMap<LanguageEntity, Language>();
+            CreateMap<Language, LanguageDto>();
         }
     }
 }

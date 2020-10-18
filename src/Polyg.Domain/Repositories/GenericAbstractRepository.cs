@@ -17,13 +17,14 @@ namespace Polyg.Domain.Repositories
             _mapper = mapper;
         }
 
-        public async Task<TDestType> AddAsync (TDestType destType)
+        public async Task<TDestType> AddAsync(TDestType destType)
         {
             var entity = _mapper.Map<TEntity>(destType);
 
-            var addedEntity = await base.AddAsync(entity);
+            var dbSet = Context.Set<TEntity>();
+            var entry = await dbSet.AddAsync(entity);
 
-            return _mapper.Map<TDestType>(addedEntity);
+            return _mapper.Map<TDestType>(entry.Entity);
         }
     }
 }

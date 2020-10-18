@@ -15,13 +15,12 @@ namespace Polyg.Domain.Repositories
             Context = context;
         }
 
-        public async Task<TEntity> AddAsync<TEntity>(TEntity entity) where TEntity : class
-        {
-            var dbSet = Context.Set<TEntity>();
-            var entry = await dbSet.AddAsync(entity);
+        //public async Task<TEntity> AddAsync<TEntity>(TEntity entity) where TEntity : class
+        //{
+        //    var dbSet = Context.Set<TEntity>();
+        //    var entry = await dbSet.AddAsync(entity);
 
-            return entry.Entity;
-        }
-
+        //    return entry.Entity;
+        //}
     }
 }
