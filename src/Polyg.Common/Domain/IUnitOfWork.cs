@@ -9,6 +9,7 @@ namespace Polyg.Common.Domain
     {
         IAuthUserRepository AuthUserRepository { get; }
         ILanguageRepository LanguageRepository { get; }
+        IPhraseRepository PhraseRepository { get; }
         Task<int> SaveChangesAsync();
     }
 }

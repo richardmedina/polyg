@@ -12,6 +12,7 @@ namespace Polyg.Services
         {
             services.AddScoped<IAuthUserService, AuthUserService>();
             services.AddScoped<ILanguageService, LanguageService>();
+            services.AddScoped<IPhraseService, PhraseService>();
         }
     }
 }
