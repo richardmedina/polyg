@@ -9,15 +9,15 @@ namespace Polyg.Infrastructure.Domain.Entities
     public class PhraseEntity
     {
         public long Id { get; set; }
-        public string TextFrom { get; set; }
+        public string FromText { get; set; }
         public string ToText { get; set; }
 
         /* Navigation properties */
-        public long UserId { get; set; }
+        public long? UserId { get; set; }
         public AuthUserEntity User { get; set; }
-        public long LanguageFromId { get; set; }
+        public long? LanguageFromId { get; set; }
         public LanguageEntity LanguageFrom { get; set; }
-        public long LanguageToId { get; set; }
+        public long? LanguageToId { get; set; }
         public LanguageEntity LanguageTo { get; set; }
     }
 }

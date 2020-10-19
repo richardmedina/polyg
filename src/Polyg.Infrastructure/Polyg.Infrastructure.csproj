@@ -7,6 +7,8 @@
   <ItemGroup>
     <Compile Remove="Domain\Migrations\20201019060010_Added Navigation Properties Id for Phrasesentity.cs" />
     <Compile Remove="Domain\Migrations\20201019060010_Added Navigation Properties Id for Phrasesentity.Designer.cs" />
+    <Compile Remove="Domain\Migrations\20201019060219_Added Navigation Properties Id for Phrasesentity.cs" />
+    <Compile Remove="Domain\Migrations\20201019060219_Added Navigation Properties Id for Phrasesentity.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
