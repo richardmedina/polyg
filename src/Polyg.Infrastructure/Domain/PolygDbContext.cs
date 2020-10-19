@@ -14,5 +14,25 @@ namespace Polyg.Infrastructure.Domain
         public PolygDbContext(DbContextOptions<PolygDbContext> options) : base(options)
         {
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<AuthUserEntity>().HasData(
+                new AuthUserEntity
+                {
+                    Id = 1,
+                    UserName = "richard",
+                    Password = "medina"
+                },
+                new AuthUserEntity
+                {
+                    Id = 2,
+                    UserName = "anonymous",
+                    Password = "anonymous"
+                }
+            );
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

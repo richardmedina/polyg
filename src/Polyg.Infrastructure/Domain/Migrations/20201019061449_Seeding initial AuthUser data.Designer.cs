@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Polyg.Infrastructure.Domain;
 
 namespace Polyg.Infrastructure.Domain.Migrations
 {
     [DbContext(typeof(PolygDbContext))]
-    partial class PolygDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201019061449_Seeding initial AuthUser data")]
+    partial class SeedinginitialAuthUserdata
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
