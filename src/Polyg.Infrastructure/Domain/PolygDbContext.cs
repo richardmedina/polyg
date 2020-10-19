@@ -32,6 +32,23 @@ namespace Polyg.Infrastructure.Domain
                 }
             );
 
+            modelBuilder.Entity<LanguageEntity>().HasData(
+                new LanguageEntity
+                {
+                    Id = 1,
+                    CultureName = "en-US",
+                    Name = "English (US)",
+                    Description = "English (United States)"
+                },
+                new LanguageEntity
+                {
+                    Id = 2,
+                    CultureName = "es-MX",
+                    Name = "Spanish (MX)",
+                    Description = "Spanish (Mexico)"
+                }
+            );
+
             base.OnModelCreating(modelBuilder);
         }
     }
