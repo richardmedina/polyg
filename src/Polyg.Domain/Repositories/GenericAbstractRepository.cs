@@ -11,20 +11,20 @@ namespace Polyg.Domain.Repositories
         where TEntity : class
         where TDestType : class
     {
-        private readonly IMapper _mapper;
+        protected IMapper Mapper { get; }
         public GenericAbstractRepository(PolygDbContext context, IMapper mapper) : base(context)
         {
-            _mapper = mapper;
+            Mapper = mapper;
         }
 
         public async Task<TDestType> AddAsync(TDestType destType)
         {
-            var entity = _mapper.Map<TEntity>(destType);
+            var entity = Mapper.Map<TEntity>(destType);
 
             var dbSet = Context.Set<TEntity>();
             var entry = await dbSet.AddAsync(entity);
 
-            return _mapper.Map<TDestType>(entry.Entity);
+            return Mapper.Map<TDestType>(entry.Entity);
         }
     }
 }

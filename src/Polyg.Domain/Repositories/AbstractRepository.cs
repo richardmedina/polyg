@@ -9,7 +9,7 @@ namespace Polyg.Domain.Repositories
 {
     public abstract class AbstractRepository
     {
-        public PolygDbContext Context { get; set; }
+        protected PolygDbContext Context { get; set; }
         public AbstractRepository(PolygDbContext context)
         {
             Context = context;

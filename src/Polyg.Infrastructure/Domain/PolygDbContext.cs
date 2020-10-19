@@ -10,6 +10,7 @@ namespace Polyg.Infrastructure.Domain
     {
         public DbSet<AuthUserEntity> AuthUsers { get; set; }
         public DbSet<LanguageEntity> Languages { get; set; }
+        public DbSet<PhraseEntity> Phrases { get; set; }
 
         public PolygDbContext(DbContextOptions<PolygDbContext> options) : base(options)
         {
