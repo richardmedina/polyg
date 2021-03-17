@@ -12,6 +12,7 @@ namespace Polyg.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
+        [HttpGet("test")]
         public async Task<IActionResult> GetTestResponse()
         {
             await Task.Yield();
