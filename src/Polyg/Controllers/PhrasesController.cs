@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Polyg.Common.Services;
 using Polyg.Models.Phrases;
+using Polyg.Services;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace Polyg.Controllers
 {
-    [Authorize(AuthenticationSchemes = "Bearer")]
+    //[Authorize(AuthenticationSchemes = "Bearer")]
     [Route("[controller]")]
     [ApiController]
-    public class PhrasesController : ControllerBase
+    public class PhrasesController : BaseController
     {
         private readonly IEnumerable<PhraseModel> phrases = Enumerable.Range(1, 20)
             .Select(n => new PhraseModel
@@ -28,21 +30,32 @@ namespace Polyg.Controllers
                     }
                 }
             });
+        private IAuthUserService _authUserService;
+        private readonly IPhraseService _phraseService;
 
-        [HttpGet]
-        public IActionResult GetAll()
+        public PhrasesController(IAuthUserService authUserService, IPhraseService phraseService)
         {
-            return StatusCode(StatusCodes.Status200OK, phrases);
+            _authUserService = authUserService;
+            _phraseService = phraseService;
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        [HttpGet]
+        public async Task<IActionResult> GetAll([FromQuery] string userName, [FromQuery] long languageId)
         {
-            var phrase = phrases.FirstOrDefault(phrase => phrase.Id == id);
+            var result = await _authUserService.GetByUserName(userName);
+            
+            var phrases = await _phraseService.GetPhrasesAsync(result.Result.Id, languageId);
 
-            return phrase != null
-                ? StatusCode(StatusCodes.Status200OK, phrase)
-                : StatusCode(StatusCodes.Status404NotFound, null);
+            return GetResponse(null, phrases.Result, phrases.StatusCode, phrases.ErrorMessage);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post()
+        {
+            await Task.CompletedTask;
+
+            return Ok();
+            
         }
 
     }

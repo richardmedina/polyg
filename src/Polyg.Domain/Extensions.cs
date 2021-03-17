@@ -13,6 +13,7 @@ namespace Polyg.Domain
         {
             services.AddScoped<IAuthUserRepository, AuthUserRepository>();
             services.AddScoped<ILanguageRepository, LanguageRepository>();
+            services.AddScoped<IPhraseRepository, PhraseRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }

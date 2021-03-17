@@ -9,7 +9,7 @@ namespace Polyg.Common.Services
 {
     public interface IPhraseService
     {
-        Task<ServiceResult<IEnumerable<PhraseDto>>> GetPhrases(int userId, int languageId);
-        Task<ServiceResult<PhraseDto>> CreatePhrase(PhraseDto phrase);
+        Task<ServiceResult<IEnumerable<PhraseDto>>> GetPhrasesAsync(long userId, long languageId);
+        Task<ServiceResult<PhraseDto>> CreatePhraseAsync(PhraseDto phrase);
     }
 }

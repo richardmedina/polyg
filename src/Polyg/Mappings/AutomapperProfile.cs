@@ -2,6 +2,7 @@
 using Polyg.Contract.Domain;
 using Polyg.Contract.Services.AuthUser;
 using Polyg.Contract.Services.Language;
+using Polyg.Contract.Services.Phrase;
 using Polyg.Infrastructure.Domain.Entities;
 using Polyg.Models;
 using System;
@@ -21,6 +22,10 @@ namespace Polyg.Mappings
 
             CreateMap<LanguageEntity, Language>();
             CreateMap<Language, LanguageDto>();
+
+            CreateMap<PhraseEntity, Phrase>();
+            CreateMap<Phrase, PhraseDto>();
+
         }
     }
 }

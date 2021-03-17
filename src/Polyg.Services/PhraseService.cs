@@ -18,7 +18,7 @@ namespace Polyg.Services
         {
             _mapper = mapper;
         }
-        public async Task<ServiceResult<PhraseDto>> CreatePhrase(PhraseDto phrase)
+        public async Task<ServiceResult<PhraseDto>> CreatePhraseAsync(PhraseDto phrase)
         {
             if (string.IsNullOrWhiteSpace(phrase.FromText) || phrase.LanguageFromId < 1 || phrase.LanguageToId < 1)
             {
@@ -32,14 +32,14 @@ namespace Polyg.Services
             return ResultFromSuccess(_mapper.Map<PhraseDto>(addedPhrase));
         }
 
-        public async Task<ServiceResult<IEnumerable<PhraseDto>>> GetPhrases(int userId, int languageId)
+        public async Task<ServiceResult<IEnumerable<PhraseDto>>> GetPhrasesAsync(long userId, long languageId)
         {
             if (userId < 1 || languageId < 1)
             {
                 return ResultFromValidationError<IEnumerable<PhraseDto>>("Invalid Parameters");
             }
 
-            var phrases = UnitOfWork
+            var phrases = await UnitOfWork
                 .PhraseRepository
                 .GetPhrasesAsync(userId, languageId);
 
